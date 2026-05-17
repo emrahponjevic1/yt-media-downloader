@@ -163,7 +163,7 @@ export default function LandingPage() {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-10">
+          <p className="text-xl md:text-2xl text-gray-300 font-light leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-10">
             A premium, crash-proof desktop engine designed with React and Electron. Fully optimized for 4K video extraction, duplicate prevention, and direct music burning for car USBs.
           </p>
 
@@ -289,7 +289,7 @@ export default function LandingPage() {
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
             Powerful Engine, Optimized Layout.
           </h2>
-          <p className="text-gray-400 font-light text-base">
+          <p className="text-gray-300 font-normal text-lg">
             Designed to solve real issues, from download bottlenecks and safety corruption to older car players without random support.
           </p>
         </div>
@@ -314,7 +314,7 @@ export default function LandingPage() {
             </div>
             <div className="space-y-3 z-10">
               <h3 className="text-xl font-bold tracking-tight text-white group-hover:text-red-400 transition-colors">YouTube Auth</h3>
-              <p className="text-sm text-gray-400 font-light leading-relaxed">
+              <p className="text-base text-gray-300 font-normal leading-relaxed">
                 Integrated WebView & OAuth2 login prompt. Bypass bot checks, download locked content, and unlock maximum download speeds.
               </p>
             </div>
@@ -338,7 +338,7 @@ export default function LandingPage() {
             </div>
             <div className="space-y-3 z-10">
               <h3 className="text-xl font-bold tracking-tight text-white group-hover:text-red-400 transition-colors">4K & UHD Support</h3>
-              <p className="text-sm text-gray-400 font-light leading-relaxed">
+              <p className="text-base text-gray-300 font-normal leading-relaxed">
                 Intelligent browser detection retrieves cookies directly from Chrome, Edge, or Brave to safely unlock premium resolutions (2160p, 1440p).
               </p>
             </div>
@@ -362,7 +362,7 @@ export default function LandingPage() {
             </div>
             <div className="space-y-3 z-10">
               <h3 className="text-xl font-bold tracking-tight text-white group-hover:text-red-400 transition-colors">Car Player Specialist</h3>
-              <p className="text-sm text-gray-400 font-light leading-relaxed">
+              <p className="text-base text-gray-300 font-normal leading-relaxed">
                 Advanced track randomize numbering. Forces older car radios (which only read alphabetical order) to play files in a true shuffle mode.
               </p>
             </div>
@@ -386,7 +386,7 @@ export default function LandingPage() {
             </div>
             <div className="space-y-3 z-10">
               <h3 className="text-xl font-bold tracking-tight text-white group-hover:text-red-400 transition-colors">Crash-Proof File Sync</h3>
-              <p className="text-sm text-gray-400 font-light leading-relaxed">
+              <p className="text-base text-gray-300 font-normal leading-relaxed">
                 Sandboxed temporary files (`temp_` prefix) and atomic renaming. Automatically detects duplicates and cleans up corrupted downloads.
               </p>
             </div>
@@ -405,7 +405,7 @@ export default function LandingPage() {
               <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mt-2 mb-4">
                 How It Works
               </h2>
-              <p className="text-gray-400 font-light text-base">
+              <p className="text-gray-300 font-normal text-lg">
                 Explore the seamless flow from YouTube to your external storage. Click any step on the left to see the simulation on the right.
               </p>
             </div>
@@ -423,7 +423,7 @@ export default function LandingPage() {
                   className={`w-full text-left p-6 rounded-xl border transition-all duration-300 ${activeStep === s.step ? 'bg-[#09061a] border-red-500/30 shadow-lg' : 'bg-transparent border-white/[0.04] hover:border-white/[0.08]'}`}
                 >
                   <h4 className={`font-bold tracking-tight text-base ${activeStep === s.step ? 'text-red-400' : 'text-white'}`}>{s.title}</h4>
-                  <p className="text-xs text-gray-500 font-light mt-2 leading-relaxed">{s.desc}</p>
+                  <p className="text-sm text-gray-400 font-normal mt-2 leading-relaxed">{s.desc}</p>
                 </button>
               ))}
             </div>
@@ -540,7 +540,7 @@ export default function LandingPage() {
               "It Works on My Machine" 🐛🔥
             </h2>
 
-            <p className="text-base text-gray-400 font-light leading-relaxed">
+            <p className="text-lg text-gray-300 font-normal leading-relaxed">
               Dosta mi je bilo napornih sajtova krcatih oglasima, pa sam iskodirao ovaj downloader iz čiste dosade. Kod je stabilan, ali testiran isključivo na **Windows 11 x64** okruženju uz dosta kofeina. Ako vam slučajno explodira procesor – to je viša sila, ali kod mene sve radi glatko!
             </p>
 
@@ -573,7 +573,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <Flame className="text-red-500" size={20} />
-            <span className="text-sm text-gray-500 font-light">
+            <span className="text-base text-gray-400 font-normal">
               © {new Date().getFullYear()} YT Media Downloader. Developed by Emrah Ponjevic.
             </span>
           </div>
