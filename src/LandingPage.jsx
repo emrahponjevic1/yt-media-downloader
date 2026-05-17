@@ -561,7 +561,7 @@ export default function LandingPage() {
                 className="px-6 py-3 rounded-xl bg-red-600/10 hover:bg-red-600/20 text-xs font-bold border border-red-500/20 text-red-400 transition-all flex items-center gap-2"
               >
                 <Heart size={12} />
-                <span>Donate Coffee</span>
+                <span>Donate if your PC didn't explode</span>
               </a>
             </div>
           </div>
