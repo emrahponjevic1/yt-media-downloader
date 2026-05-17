@@ -544,26 +544,26 @@ export default function LandingPage() {
               Say goodbye to shady online converters filled with pop-ups, adware, and tracking cookies. YT Media Downloader is built with a privacy-first approach. Every single process runs locally on your computer—zero tracking, zero remote servers, and fully open-source code that you can audit yourself at any time.
             </p>
 
-            <div className="pt-4 flex justify-center gap-4">
-              <a 
-                href="https://github.com/emrahponjevic1/yt-media-downloader" 
-                target="_blank" 
-                rel="noreferrer"
-                className="px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-xs font-bold border border-white/10 hover:border-white/20 transition-all flex items-center gap-2"
-              >
-                <span>Audit Code on GitHub</span>
-                <ExternalLink size={12} />
-              </a>
-              <a 
-                href="https://paypal.me/emrahponjevic" 
-                target="_blank" 
-                rel="noreferrer"
-                className="px-6 py-3 rounded-xl bg-red-600/10 hover:bg-red-600/20 text-xs font-bold border border-red-500/20 text-red-400 transition-all flex items-center gap-2"
-              >
-                <Heart size={12} />
-                <span>Support Open Source</span>
-              </a>
-            </div>
+             <div className="pt-4 flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-4 max-w-sm mx-auto w-full">
+               <a 
+                 href="https://github.com/emrahponjevic1/yt-media-downloader" 
+                 target="_blank" 
+                 rel="noreferrer"
+                 className="px-6 py-3.5 rounded-xl bg-white/5 hover:bg-white/10 text-xs font-bold border border-white/10 hover:border-white/20 transition-all flex items-center justify-center gap-2"
+               >
+                 <span>Audit Code on GitHub</span>
+                 <ExternalLink size={12} />
+               </a>
+               <a 
+                 href="https://paypal.me/emrahponjevic" 
+                 target="_blank" 
+                 rel="noreferrer"
+                 className="px-6 py-3.5 rounded-xl bg-red-600/10 hover:bg-red-600/20 text-xs font-bold border border-red-500/20 text-red-400 transition-all flex items-center justify-center gap-2"
+               >
+                 <Heart size={12} />
+                 <span>Support Open Source</span>
+               </a>
+             </div>
           </div>
         </div>
       </section>
