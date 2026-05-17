@@ -541,7 +541,7 @@ export default function LandingPage() {
             </h2>
 
             <p className="text-lg text-gray-300 font-normal leading-relaxed">
-              Dosta mi je bilo napornih sajtova krcatih oglasima, pa sam iskodirao ovaj downloader iz čiste dosade. Kod je stabilan, ali testiran isključivo na **Windows 11 x64** okruženju uz dosta kofeina. Ako vam slučajno explodira procesor – to je viša sila, ali kod mene sve radi glatko!
+              I got sick of bloated websites packed with annoying ads, so I built this downloader out of pure boredom. The code is stable, but tested exclusively on a **Windows 11 x64** environment powered by heavy caffeine. If your CPU randomly explodes – it is higher force, but it works perfectly on mine!
             </p>
 
             <div className="pt-4 flex justify-center gap-4">
