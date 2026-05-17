@@ -199,7 +199,7 @@ export default function LandingPage() {
             style={heroTilt.style}
             onMouseMove={heroTilt.onMouseMove}
             onMouseLeave={heroTilt.onMouseLeave}
-            className="relative w-full max-w-[500px] aspect-[4/3] rounded-2xl bg-white/[0.02] border border-white/[0.06] shadow-2xl preserve-3d animate-float-3d shadow-black/80 flex flex-col backdrop-blur-xl"
+            className="relative w-full max-w-[500px] aspect-[4/3.7] sm:aspect-[4/3] rounded-2xl bg-white/[0.02] border border-white/[0.06] shadow-2xl preserve-3d animate-float-3d shadow-black/80 flex flex-col backdrop-blur-xl"
           >
             
             {/* Sjaj preko čitavog prozora */}
@@ -222,11 +222,11 @@ export default function LandingPage() {
             </div>
 
             {/* Sadržaj / Slojevi dubine */}
-            <div className="flex-1 p-6 flex flex-col justify-between preserve-3d relative">
+            <div className="flex-1 p-4 sm:p-6 flex flex-col justify-between preserve-3d relative">
               
               {/* Sloj 1 (Glavni UI - Dubina: 15px) */}
               <div 
-                className="space-y-4 preserve-3d" 
+                className="space-y-3 sm:space-y-4 preserve-3d" 
                 style={{ transform: 'translateZ(15px)' }}
               >
                 <div className="h-10 bg-white/[0.03] border border-white/[0.05] rounded-lg px-3 flex items-center text-xs text-gray-500 font-mono">
@@ -244,8 +244,8 @@ export default function LandingPage() {
 
               {/* Sloj 2 (Plutajući Tabovi - Dubina: 40px) */}
               <div 
-                className="absolute top-1/2 left-6 right-6 p-4 rounded-xl bg-[#09061a]/90 border border-white/[0.08] shadow-2xl preserve-3d space-y-3"
-                style={{ transform: 'translateZ(40px) translateY(-25%)' }}
+                className="absolute top-[54%] sm:top-1/2 left-4 sm:left-6 right-4 sm:right-6 p-3.5 sm:p-4 rounded-xl bg-[#09061a]/90 border border-white/[0.08] shadow-2xl preserve-3d space-y-2 sm:space-y-3"
+                style={{ transform: 'translateZ(40px) translateY(-15%)' }}
               >
                 <div className="flex justify-between items-center text-[10px] tracking-wide text-red-400 font-bold">
                   <span>ACTIVE AUDIO PROCESSES</span>
