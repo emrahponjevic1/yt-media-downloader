@@ -97,7 +97,7 @@ export default function LandingPage() {
   }, [activeStep]);
 
   return (
-    <div className="min-h-screen bg-[#030014] text-white overflow-x-hidden font-sans selection:bg-red-600/30 selection:text-red-200">
+    <div className="min-h-screen w-full relative bg-[#030014] text-white overflow-x-hidden font-sans selection:bg-red-600/30 selection:text-red-200">
       
       {/* Ambijentalno neonsko osvjetljenje u pozadini */}
       <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-red-600/10 rounded-full blur-[150px] animate-pulse-slow pointer-events-none z-0" />
@@ -186,7 +186,7 @@ export default function LandingPage() {
             </a>
           </div>
 
-          <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-xs text-gray-500 font-medium">
+          <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-y-3 gap-x-6 text-xs text-gray-500 font-medium">
             <span className="flex items-center gap-1.5"><CheckCircle2 size={14} className="text-red-500" /> Portable (No Install)</span>
             <span className="flex items-center gap-1.5"><CheckCircle2 size={14} className="text-red-500" /> Windows 10 / 11 Only</span>
             <span className="flex items-center gap-1.5"><CheckCircle2 size={14} className="text-red-500" /> 100% Free & Open Source</span>
