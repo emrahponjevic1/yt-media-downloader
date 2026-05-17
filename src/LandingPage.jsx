@@ -264,14 +264,14 @@ export default function LandingPage() {
 
               {/* Sloj 3 (Spektakularne 3D Ikone - Dubina: 75px) */}
               <div 
-                className="absolute -right-6 -bottom-6 w-24 h-24 bg-gradient-to-tr from-red-600 to-pink-600 rounded-2xl shadow-2xl shadow-red-600/25 flex items-center justify-center preserve-3d"
+                className="hidden sm:flex absolute -right-6 -bottom-6 w-24 h-24 bg-gradient-to-tr from-red-600 to-pink-600 rounded-2xl shadow-2xl shadow-red-600/25 items-center justify-center preserve-3d"
                 style={{ transform: 'translateZ(75px)' }}
               >
                 <Sparkles size={36} className="text-white animate-pulse" />
               </div>
               
               <div 
-                className="absolute -left-6 -bottom-4 px-3 py-2 bg-blue-900/90 border border-blue-500/20 rounded-xl shadow-xl flex items-center gap-2 preserve-3d text-xs font-bold"
+                className="hidden sm:flex absolute -left-6 -bottom-4 px-3 py-2 bg-blue-900/90 border border-blue-500/20 rounded-xl shadow-xl items-center gap-2 preserve-3d text-xs font-bold"
                 style={{ transform: 'translateZ(55px)' }}
               >
                 <Usb size={14} className="text-blue-400" />
