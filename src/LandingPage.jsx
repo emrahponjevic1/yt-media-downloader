@@ -301,7 +301,7 @@ export default function LandingPage() {
             style={tiltCard1.style}
             onMouseMove={tiltCard1.onMouseMove}
             onMouseLeave={tiltCard1.onMouseLeave}
-            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col justify-between overflow-hidden aspect-square shadow-xl shadow-black/10"
+            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col gap-6 overflow-hidden shadow-xl shadow-black/10"
           >
             <div 
               className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
@@ -325,7 +325,7 @@ export default function LandingPage() {
             style={tiltCard2.style}
             onMouseMove={tiltCard2.onMouseMove}
             onMouseLeave={tiltCard2.onMouseLeave}
-            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col justify-between overflow-hidden aspect-square shadow-xl shadow-black/10"
+            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col gap-6 overflow-hidden shadow-xl shadow-black/10"
           >
             <div 
               className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
@@ -349,7 +349,7 @@ export default function LandingPage() {
             style={tiltCard3.style}
             onMouseMove={tiltCard3.onMouseMove}
             onMouseLeave={tiltCard3.onMouseLeave}
-            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col justify-between overflow-hidden aspect-square shadow-xl shadow-black/10"
+            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col gap-6 overflow-hidden shadow-xl shadow-black/10"
           >
             <div 
               className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
@@ -373,7 +373,7 @@ export default function LandingPage() {
             style={tiltCard4.style}
             onMouseMove={tiltCard4.onMouseMove}
             onMouseLeave={tiltCard4.onMouseLeave}
-            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col justify-between overflow-hidden aspect-square shadow-xl shadow-black/10"
+            className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:border-red-500/20 transition-all flex flex-col gap-6 overflow-hidden shadow-xl shadow-black/10"
           >
             <div 
               className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
