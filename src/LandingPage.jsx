@@ -122,7 +122,7 @@ export default function LandingPage() {
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
             <a href="#features" className="hover:text-white transition-colors">Features</a>
             <a href="#demo" className="hover:text-white transition-colors">How It Works</a>
-            <a href="#humor" className="hover:text-white transition-colors">Stability Notes</a>
+            <a href="#security" className="hover:text-white transition-colors">Security</a>
           </nav>
 
           <div className="flex items-center gap-4">
@@ -524,24 +524,24 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* 5. DEV HUMOR SEKCIJA ("WORKS ON MY MACHINE") */}
-      <section id="humor" className="max-w-5xl mx-auto px-6 py-24 border-t border-white/[0.04] text-center">
+      {/* 5. PRIVACY & SECURITY SECTION */}
+      <section id="security" className="max-w-5xl mx-auto px-6 py-24 border-t border-white/[0.04] text-center">
         <div className="relative p-12 rounded-3xl bg-gradient-to-tr from-[#0e0721]/60 to-[#030014]/40 border border-white/[0.06] overflow-hidden shadow-2xl">
           
           <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-blue-600/5 rounded-full blur-[100px] pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-red-600/5 rounded-full blur-[100px] pointer-events-none" />
 
           <div className="relative z-10 max-w-2xl mx-auto space-y-6">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-xs font-mono text-blue-400">
-              <span>DEBUG_LOG: STABLE_ON_WIN11</span>
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-xs font-mono text-red-400">
+              <span>SECURITY & TRUST</span>
             </div>
             
             <h2 className="text-4xl font-extrabold tracking-tight">
-              "It Works on My Machine" 🐛🔥
+              100% Secure, Ad-Free & Private 🛡️
             </h2>
 
             <p className="text-lg text-gray-300 font-normal leading-relaxed">
-              I got sick of bloated websites packed with annoying ads, so I built this downloader out of pure boredom. The code is stable, but tested exclusively on a **Windows 11 x64** environment powered by heavy caffeine. If your CPU randomly explodes – it is higher force, but it works perfectly on mine!
+              Say goodbye to shady online converters filled with pop-ups, adware, and tracking cookies. YT Media Downloader is built with a privacy-first approach. Every single process runs locally on your computer—zero tracking, zero remote servers, and fully open-source code that you can audit yourself at any time.
             </p>
 
             <div className="pt-4 flex justify-center gap-4">
@@ -551,7 +551,7 @@ export default function LandingPage() {
                 rel="noreferrer"
                 className="px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-xs font-bold border border-white/10 hover:border-white/20 transition-all flex items-center gap-2"
               >
-                <span>Check Haotic Code</span>
+                <span>Audit Code on GitHub</span>
                 <ExternalLink size={12} />
               </a>
               <a 
@@ -561,7 +561,7 @@ export default function LandingPage() {
                 className="px-6 py-3 rounded-xl bg-red-600/10 hover:bg-red-600/20 text-xs font-bold border border-red-500/20 text-red-400 transition-all flex items-center gap-2"
               >
                 <Heart size={12} />
-                <span>Donate if your PC didn't explode</span>
+                <span>Support Open Source</span>
               </a>
             </div>
           </div>
