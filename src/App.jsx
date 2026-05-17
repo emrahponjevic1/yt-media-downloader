@@ -23,7 +23,15 @@ function formatSize(bytes) {
     : `${Math.round(mb)} MB`;
 }
 
+import LandingPage from './LandingPage';
+
 export default function App() {
+  const isWeb = typeof window.electronAPI === 'undefined';
+
+  if (isWeb) {
+    return <LandingPage />;
+  }
+
   const [activeTab, setActiveTab] = useState('download');
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [updateInfo, setUpdateInfo] = useState(null);
