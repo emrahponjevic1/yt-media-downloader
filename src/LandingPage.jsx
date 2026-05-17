@@ -264,17 +264,17 @@ export default function LandingPage() {
 
               {/* Sloj 3 (Spektakularne 3D Ikone - Dubina: 75px) */}
               <div 
-                className="hidden sm:flex absolute -right-6 -bottom-6 w-24 h-24 bg-gradient-to-tr from-red-600 to-pink-600 rounded-2xl shadow-2xl shadow-red-600/25 items-center justify-center preserve-3d"
+                className="absolute right-2 bottom-2 sm:-right-6 sm:-bottom-6 w-16 h-16 sm:w-24 sm:h-24 bg-gradient-to-tr from-red-600 to-pink-600 rounded-xl sm:rounded-2xl shadow-2xl shadow-red-600/25 flex items-center justify-center preserve-3d"
                 style={{ transform: 'translateZ(75px)' }}
               >
-                <Sparkles size={36} className="text-white animate-pulse" />
+                <Sparkles className="text-white animate-pulse w-6 h-6 sm:w-9 sm:h-9" />
               </div>
               
               <div 
-                className="hidden sm:flex absolute -left-6 -bottom-4 px-3 py-2 bg-blue-900/90 border border-blue-500/20 rounded-xl shadow-xl items-center gap-2 preserve-3d text-xs font-bold"
+                className="absolute left-2 bottom-2 sm:-left-6 sm:-bottom-4 px-2 py-1 sm:px-3 sm:py-2 bg-blue-900/90 border border-blue-500/20 rounded-lg sm:rounded-xl shadow-xl flex items-center gap-1.5 sm:gap-2 preserve-3d text-[10px] sm:text-xs font-bold"
                 style={{ transform: 'translateZ(55px)' }}
               >
-                <Usb size={14} className="text-blue-400" />
+                <Usb className="text-blue-400 w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 <span className="text-blue-300">USB Synced (E:)</span>
               </div>
 
